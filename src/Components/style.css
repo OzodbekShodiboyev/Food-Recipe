@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #1e9dec;
+}
+
+.container{
+    text-align: center;
+}
+.search-bar{
+    width: 77%;
+}
+.card-container{
+    width: 70%;
+    margin: auto;
+    display: grid;
+    grid-template-columns:  auto  auto auto auto;
+}
+.card{
+    width: 13rem;
+}
+.card:hover{
+    cursor: pointer;
+}
+.content .inner-content{
+    background-color: rgba(255,255,255,0.8);
+    color: black;
+    font-size: 1.5rem;
+    padding: 2rem;
+    text-align: center;
+    position: absolute;
+    top:45%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 0 5px 5px rgba(0,0,0,05);
+}
+.recipe-details{
+    display: flex;
+    justify-content: space-between;
+}
+.ingredients,.instructions{
+    flex-basis: 50%;
+    text-align: justify;
+}
+.ingredients h4{
+    margin-top: 1.5rem;
+    font-weight: bold;
+}
+
+
+ 
+.numBox{
+    width: 77%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+}
+.numBox h3{
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #fff;
+}
+.meal-name{
+    font-size: 18px;
+}
